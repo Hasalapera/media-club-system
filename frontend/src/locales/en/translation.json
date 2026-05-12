@@ -1,0 +1,10 @@
+{
+  "navbar": {
+    "home": "Home",
+    "events": "Events",
+    "gallery": "Gallery",
+    "about": "About",
+    "login": "Login",
+    "dashboard": "Dashboard"
+  }
+}

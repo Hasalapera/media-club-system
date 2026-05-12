@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary & Accent */
+  --color-primary: #f07d01;
+  --color-accent: #ff9800;
+
+  /* Light Mode Colors */
+  --color-light-bg: #ffffff;
+  --color-light-surface: #f8f9fa;
+  --color-light-text: #1a1a1a;
+  --color-light-text-muted: #666666;
+  --color-light-border: #e0e0e0;
+
+  /* Dark Mode Colors */
+  --color-dark-bg: #121212;
+  --color-dark-surface: #1e1e1e;
+  --color-dark-text: #ffffff;
+  --color-dark-text-muted: #b0b0b0;
+  --color-dark-border: #333333;
+
+  /* Status Colors */
+  --color-success: #4caf50;
+  --color-error: #f44336;
+  --color-warning: #ffc107;
+  --color-info: #2196f3;
+
+  /* Fonts */
+  --font-main: "Poppins", sans-serif;
+  --font-sinhala: "Abhaya Libre", serif;
+  --font-tamil: "Arima", cursive;
+}
+
+@layer base {
+  body {
+    /* Apply base styles for both light and dark modes using dark: variants */
+    @apply bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text transition-colors duration-300 ease-in-out;
+    font-family: var(--font-main);
+  }
+}
