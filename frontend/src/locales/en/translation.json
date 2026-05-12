@@ -6,5 +6,23 @@
     "about": "About",
     "login": "Login",
     "dashboard": "Dashboard"
+  },
+  "navbar_aria": {
+    "toggle_theme": "Toggle theme",
+    "change_language": "Change language",
+    "toggle_menu": "Toggle menu"
+  },
+  "hero": {
+    "title": "Capturing Moments, Creating History",
+    "subtitle": "The Official Media Unit of the University of Ruhuna, Faculty of Technology.",
+    "cta_events": "Upcoming Events",
+    "cta_join": "Join the Crew"
+  },
+  "events": {
+    "title": "Signature Events",
+    "subtitle": "Exclusive workshops, screenings, and networking opportunities."
+  },
+  "card": {
+    "view_details": "View Details"
   }
 }
